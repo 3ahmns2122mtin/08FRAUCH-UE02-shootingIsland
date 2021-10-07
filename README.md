@@ -1,4 +1,4 @@
-# Unity2020.3.18f1-README-Template
+# UE02 - ShootingIsland
 
 ### Projektbeschreibung: 
 Einführung in / Zusammenfassung des Projektes. 
@@ -10,7 +10,8 @@ Einführung in / Zusammenfassung des Projektes.
 WebGL Referenzauflösung (960x600) 
 
 ### Visuelle Einblicke in das Projekt: 
-Screenshots (Konzept, Spielabschnitte), Video (< 100MB, < 3 min)
+![image](https://user-images.githubusercontent.com/90834237/136346177-2869558e-b218-4ce8-9d08-72f4c81fca78.png)
+
 
 ### Notwendiges für die Ausführung: 
 z.B.: Installationsprozess, Schritt für Schritt Anweisung, spezielles Packages welches geladen werden muss, etc.  
