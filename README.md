@@ -21,24 +21,24 @@ z.B.: Installationsprozess, Schritt für Schritt Anweisung, spezielles Packages 
 Falls verwendet Fonts, Sounds, Music, Graphics, Materials, Code etc. welches nicht von mir stammt muss hier referenziert werden. 
 
 ### Anforderungsliste:    
-- [ ] WebGL export/upload lauffähig/spielbar
-- [ ] 2D Untiyprojekt Version 2020.3.18f1 LTS öffnen
-- [ ] In Assets Folder MyGame anlegen.
-- [ ] Den Ordner Scenes in Assets > MyGame ziehen
-- [ ] Die Szene SampleScene im Ornder Scenes umbenennen in ShootingScene
-- [ ] Ein Canvas GameObject anlegen.
-- [ ] Das Canvas auf screenindependent einstellen: Komponente Canvas --> Render Mode --> Screen Space - Camera, 
+- [x] WebGL export/upload lauffähig/spielbar
+- [x] 2D Untiyprojekt Version 2020.3.18f1 LTS öffnen
+- [x] In Assets Folder MyGame anlegen.
+- [x] Den Ordner Scenes in Assets > MyGame ziehen
+- [x] Die Szene SampleScene im Ornder Scenes umbenennen in ShootingScene
+- [x] Ein Canvas GameObject anlegen.
+- [x] Das Canvas auf screenindependent einstellen: Komponente Canvas --> Render Mode --> Screen Space - Camera, 
 das GameObject Main Camera per Drag & Drop auf Render Camera ziehen in der Komponente Canvas.
-- [ ] In der Komponente Canvas Scaler unter UI Scale Mode --> Scale with Screen Size einstellen und als Reference Resolution 960x600 einstellen.
-- [ ] In Asstets > MyGame den Folder Sprites anlegen. 
-- [ ] Ein Hintergrund Sprite reinladen.
-- [ ] In der Hierarchy dem Canvas GameObject ein Kind GameObject vom Typ Image hinzufügen und in Background umbenennen.
-- [ ] Das Image ggf. positionieren und größentechnisch anpassen.
-- [ ] Dem Canvas Eltern GameObject ein empty GameObject (Create Empty) hinzufügen. 
-- [ ] Auf dem Empty GameObject ein Reset auführen (Komponente Rect Transform --> Menü = 3 vertikale Punkte öffnen --> obester Eintrag. 
-- [ ] Das empty GameObject umbenennen in ParentTargets.
-- [ ] in Assets > MyGame > Prefabs Folder anlegen.
-- [ ] Sprite Target in der Hierarchy als Kind GameObject von ParentTargets ziehen und umbenennen in Target.
+- [x] In der Komponente Canvas Scaler unter UI Scale Mode --> Scale with Screen Size einstellen und als Reference Resolution 960x600 einstellen.
+- [x] In Asstets > MyGame den Folder Sprites anlegen. 
+- [x] Ein Hintergrund Sprite reinladen.
+- [x] In der Hierarchy dem Canvas GameObject ein Kind GameObject vom Typ Image hinzufügen und in Background umbenennen.
+- [x] Das Image ggf. positionieren und größentechnisch anpassen.
+- [x] Dem Canvas Eltern GameObject ein empty GameObject (Create Empty) hinzufügen. 
+- [x] Auf dem Empty GameObject ein Reset auführen (Komponente Rect Transform --> Menü = 3 vertikale Punkte öffnen --> obester Eintrag. 
+- [x] Das empty GameObject umbenennen in ParentTargets.
+- [x] in Assets > MyGame > Prefabs Folder anlegen.
+- [x] Sprite Target in der Hierarchy als Kind GameObject von ParentTargets ziehen und umbenennen in Target.
 - [ ] Das GameObject per Drag and Drop in den Prefabs Ornder ziehen. Sollte dann blau erscheinen. 
 - [ ] Ändern des Mauszeigers: 1) auf Sprite clicken und im Inspector Texture Type Cursor setzen. Wichtig ist am Ende Apply (unten rechts) zu bestätigen, sonst werden die 
 - [ ] Änderungen nicht übernommen. 2) Unter BuildSettings > PlayerSettings per Drag and Drop das Cursorsprite in Default Cursor ziehen. 
