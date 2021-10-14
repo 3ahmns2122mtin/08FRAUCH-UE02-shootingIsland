@@ -47,8 +47,8 @@ das GameObject Main Camera per Drag & Drop auf Render Camera ziehen in der Kompo
 - [x] In Scripts ein neues C# Script anlegen: Rechtsklick > Create > C# Script. Script gleich umbenennen in Target. Mit Doppelklick öffnen in Visual Studio (https://github.com/HTL-SBG/FAQIssuesUnityVSGitGitHub/issues/2).
 - [x] Anhängen des Scripts Target als Komponente an das GameObject Target (per Drag and Drop). 
 - [x] Einen 2D Collider als Komponente dem Target hinzufügen. 
-- [ ] Dem Script Target eine Methode OnMouseDown() hinzufügen. 
-- [ ] In der OnMouseDown() Methodendeklaration, die Methodenaufruf Destroy(gameObject); hinzufügen
+- [x] Dem Script Target eine Methode OnMouseDown() hinzufügen. 
+- [x] In der OnMouseDown() Methodendeklaration, die Methodenaufruf Destroy(gameObject); hinzufügen
 - [ ] Das GO Target in der Hierarchy auswählen und mit Apply All die Änderungen bestätigen. 
 - [ ] In der Szene ein empty GameObject anlegen, umbenennen in GameManager und Reset ausführen. 
 - [ ] Im Scripts Ordner ein neues C# Script erstellen mit dem Namen GameManager.
