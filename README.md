@@ -49,10 +49,10 @@ das GameObject Main Camera per Drag & Drop auf Render Camera ziehen in der Kompo
 - [x] Einen 2D Collider als Komponente dem Target hinzufügen. 
 - [x] Dem Script Target eine Methode OnMouseDown() hinzufügen. 
 - [x] In der OnMouseDown() Methodendeklaration, die Methodenaufruf Destroy(gameObject); hinzufügen
-- [ ] Das GO Target in der Hierarchy auswählen und mit Apply All die Änderungen bestätigen. 
-- [ ] In der Szene ein empty GameObject anlegen, umbenennen in GameManager und Reset ausführen. 
-- [ ] Im Scripts Ordner ein neues C# Script erstellen mit dem Namen GameManager.
-- [ ] Das GameManager Script per Drag and Drop dem GameObject GameManager hinzufügen.
+- [x] Das GO Target in der Hierarchy auswählen und mit Apply All die Änderungen bestätigen. 
+- [x] In der Szene ein empty GameObject anlegen, umbenennen in GameManager und Reset ausführen. 
+- [x] Im Scripts Ordner ein neues C# Script erstellen mit dem Namen GameManager.
+- [x] Das GameManager Script per Drag and Drop dem GameObject GameManager hinzufügen.
 - [ ] ... (noch unvollständig)
 
 ### Limitationen:
