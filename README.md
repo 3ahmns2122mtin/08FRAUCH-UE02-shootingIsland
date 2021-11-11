@@ -9,6 +9,8 @@ Einführung in / Zusammenfassung des Projektes.
 ### Zielplattform: 
 WebGL Referenzauflösung (960x600) 
 
+### Link:
+https://3ahmns2122mtin.github.io/08FRAUCH-UE02-shootingIsland/
 
 ### Visuelle Einblicke in das Projekt: 
 ![image](https://user-images.githubusercontent.com/90834237/136346177-2869558e-b218-4ce8-9d08-72f4c81fca78.png)
