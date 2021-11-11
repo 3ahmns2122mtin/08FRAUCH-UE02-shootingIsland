@@ -4,23 +4,17 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+
+    public GameObject target;
+    public GameObject parentOfTargets;
+
+    public bool won;
+    public int score;
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(Random.Range(4, 20));
-        Debug.Log(Random.Range(4, 20));
-        Debug.Log(Random.Range(4, 20));
-        Debug.Log(Random.Range(4, 20));
-
-        Spawn();
-        Spawn();
-        Spawn();
-        Spawn();
-        Spawn();
-        Spawn();
-        Spawn();
-        Spawn();
-        Spawn();
+        won = false;
+        InvokeRepeating("Spawn", 1f, 2f);
     }
 
     private void Spawn()
@@ -30,12 +24,38 @@ public class GameManager : MonoBehaviour
 
         Vector2 random2DPosition = new Vector2(randomX, randomY);
 
-        Debug.Log(random2DPosition);
+        GameObject myTarget = Instantiate(target, parentOfTargets.transform);
+        myTarget.transform.localPosition = random2DPosition;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(won == true)
+        {
+            CancelInvoke("Spawn");
+        }
+        else
+        {
+           
+        }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            Debug.Log("Mouse pressed GameManager");
+        }
+
+    }
+
+    public void IncrementScore()
+    {
+        score++;
+        Debug.Log("increment ..." + score);
+
+        if(score == 10)
+        {
+            won = true;
+        }
     }
 }

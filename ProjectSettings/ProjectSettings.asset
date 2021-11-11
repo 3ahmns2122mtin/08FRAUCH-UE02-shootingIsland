@@ -15,7 +15,7 @@ PlayerSettings:
   companyName: Rauch GmBh
   productName: 08FRAUCH-UE02-shootingIsland
   defaultCursor: {fileID: 2800000, guid: 27e0086bca36b1e47aecf0e70cdb7ff4, type: 3}
-  cursorHotspot: {x: 0, y: 0}
+  cursorHotspot: {x: 128, y: 128}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
