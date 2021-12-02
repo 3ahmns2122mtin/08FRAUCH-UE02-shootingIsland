@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public GameObject parentOfTargets;
     public GameObject objCounter;
     public GameObject wonObj;
+    public GameObject wonSound;
     public GameObject shootSound;
 
     private Text textCounter;
@@ -22,12 +23,13 @@ public class GameManager : MonoBehaviour
         won = false;
         InvokeRepeating("Spawn", 1f, 2f);
         wonObj.SetActive(false);
+        wonSound.SetActive(false);
     }
 
     private void Spawn()
     {
-        float randomX = Random.Range(-100, 100);
-        float randomY = Random.Range(-100, 100);
+        float randomX = Random.Range(-250, 250);
+        float randomY = Random.Range(-250, 250);
 
         Vector2 random2DPosition = new Vector2(randomX, randomY);
 
@@ -43,6 +45,7 @@ public class GameManager : MonoBehaviour
         {
             CancelInvoke("Spawn");
             wonObj.SetActive(true);
+            wonSound.SetActive(true);
         }
         else
         {
