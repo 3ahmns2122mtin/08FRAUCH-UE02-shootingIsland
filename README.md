@@ -55,16 +55,17 @@ das GameObject Main Camera per Drag & Drop auf Render Camera ziehen in der Kompo
 - [x] In der Szene ein empty GameObject anlegen, umbenennen in GameManager und Reset ausführen. 
 - [x] Im Scripts Ordner ein neues C# Script erstellen mit dem Namen GameManager.
 - [x] Das GameManager Script per Drag and Drop dem GameObject GameManager hinzufügen.
-- [ ] ... (noch unvollständig)
+- [x] Counter und Gewonnen Nachricht hinzugefügt
+- [x] Hintergrundbild geändert
+- [x] Gewonnen-Sound hinzugefügt
+- [x] Anderen Hitsound hinzugefügt 
 
 ### Limitationen:
- 
+- [x] Vergessen Target auf Prefab zuzuweisen.
 
 ### Lessons Learned:
-- [ ] Saturn
-- [ ] Uranus
-- [ ] Neptune
-- [ ] Comet Haley
+- [x] Immer auf Verbindungen vom Script auf die Objekte achten
+
 
 Copyright by frauch
 
