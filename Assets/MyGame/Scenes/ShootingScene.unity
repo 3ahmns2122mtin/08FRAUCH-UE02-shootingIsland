@@ -800,7 +800,7 @@ MonoBehaviour:
   target: {fileID: 6641564091839527217, guid: 8a3031101fdc2fa4b8b2924b932d579e, type: 3}
   parentOfTargets: {fileID: 551109120}
   objCounter: {fileID: 1502374817}
-  wonObj: {fileID: 0}
+  wonObj: {fileID: 293867019}
   shootSound: {fileID: 158093132}
   won: 0
   score: 0
